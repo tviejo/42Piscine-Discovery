@@ -6,3 +6,7 @@ do
     shift
     x=$((x+1))
 done
+if [ "$x" == 0 ];
+then
+    echo "No arguments supplied"
+fi

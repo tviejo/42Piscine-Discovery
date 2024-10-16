@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 3em;
+}
+
+
+
+.footer {
+    text-align: right;
+    font-style: italic;
+    font-family: monospace;
+}
