@@ -93,16 +93,4 @@ body, html {
     transform: scale(1.05);
 }
 
-.footer {
-    width: 100%;
-    text-align: center;
-    padding: 15px 0;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    font-style: italic;
-    font-family: monospace;
-}
 
