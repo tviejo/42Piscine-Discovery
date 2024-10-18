@@ -88,8 +88,8 @@ const resumeData = {
             technologies: ["TypeScript", "NestJS", "PostgreSQL", "WebSockets", "OAuth"]
         }
     ],
-    email: "thomas.viejo@student.42.fr",
-    github: "https://github.com/thomasviejo"
+    email: "tviejo@student.42.fr",
+    github: "https://github.com/tviejo"
 };
 
 function populateResume() {
