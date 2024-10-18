@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="calc.css">
+    <title>Thomas Viejo</title>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="right" class="input" value="0" enable>
+        <div class="dropdown">
+            <button class="dropbtn" id="operator">*</button>
+            <div class="dropdown-content">
+                <a onclick="changetext('*')">*</a>
+                <a onclick="changetext('/')">/</a>
+                <a onclick="changetext('+')">+</a>
+                <a onclick="changetext('-')">-</a>
+                <a onclick="changetext('%')">-</a>
+            </div>
+        </div>
+        <input type="text" id="left" class="input" value="0" enable>
+        <button class="calculate-btn" onclick="calculate()">Try me!</button>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
